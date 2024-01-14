@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <button onclick="appendNumber('0')" data-type="number">0</button>
+            <button onclick="appendNumber('1')" data-type="number">1</button>
+            <button onclick="appendNumber('2')" data-type="number">2</button>
+            <button onclick="appendNumber('3')" data-type="number">3</button>
+
+            <button onclick="appendNumber('4')" data-type="number">4</button>
+            <button onclick="appendNumber('5')" data-type="number">5</button>
+            <button onclick="appendNumber('6')" data-type="number">6</button>
+            <button onclick="appendNumber('7')" data-type="number">7</button>
+
+            <button onclick="appendNumber('8')" data-type="number">8</button>
+            <button onclick="appendNumber('9')" data-type="number">9</button>
+            <button onclick="appendDecimal()" data-type="number">.</button>
+            <button onclick="appendOperation('+')" data-type="operator">+</button>
+
+            <button onclick="appendOperation('-')" data-type="operator">-</button>
+            <button onclick="appendOperation('*')" data-type="operator">*</button>
+            <button onclick="appendOperation('/')" data-type="operator">/</button>
+            <button onclick="calculate()" data-type="operator">=</button>
+
+
+            <button onclick="resetCalculator()" data-type="reset">Reset</button>
+            <button onclick="clearCalculator()" data-type="clear">Clear</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
