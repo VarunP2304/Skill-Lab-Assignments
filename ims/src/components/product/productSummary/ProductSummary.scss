@@ -1,0 +1,67 @@
+.product-summary {
+  width: 100%;
+
+  .info-summary {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #f5f6fa;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+  }
+
+  .card1 {
+    background-color: #b624ff;
+    height: 120px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .card2 {
+    background-color: #32963d;
+    height: 120px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .card3 {
+    background-color: #c41849;
+    height: 120px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .card4 {
+    background-color: #03a5fc;
+    height: 120px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }
+}

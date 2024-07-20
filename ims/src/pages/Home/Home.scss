@@ -1,0 +1,80 @@
+.home {
+  background-color: #030b6b; /* Navy blue background */
+  min-height: 100vh;
+
+  & nav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #ffd700; /* Gold color */
+    & > .logo {
+      color: #ffd700; /* Gold color */
+      font-size: 40; /* Increase the font size if needed */
+    }
+  }
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & li a {
+    color: #ffd700; /* Gold color */
+  }
+  & > * {
+    margin-left: 1rem;
+    color: #ffd700; /* Gold color */
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between; /* Move hero image to the right */
+  align-items: center;
+  padding: 2rem; /* Add padding for spacing */
+}
+
+.hero-text {
+  width: 40%; /* Adjust width for better layout */
+  & > * {
+    color: #ffd700; /* Gold color */
+    margin-bottom: 2rem;
+  }
+  & > h2 span {
+    display: block;
+  }
+  & .hero-buttons a {
+    color: #ffd700; /* Gold color */
+  }
+}
+
+.hero-image {
+  width: 60%; /* Increase size of the hero image */
+  display: flex;
+  justify-content: flex-end; /* Move image to the right */
+  & img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .hero-image {
+    width: 100%;
+    & img {
+      width: 100%;
+    }
+  }
+}
