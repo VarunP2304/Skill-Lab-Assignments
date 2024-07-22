@@ -1,0 +1,29 @@
+.jumbotron {
+    background: url('./hero1.jpg') no-repeat center center;
+    background-size: cover;
+    color:navy;
+    height: 675px; /* Ensuring the height matches the aspect ratio of the image */
+}
+
+.body{
+    background-color: azure;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 2rem 1rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}
